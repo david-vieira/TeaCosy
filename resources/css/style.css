@@ -79,3 +79,36 @@ a{
   padding-bottom: 10px;
   margin:0;
 }
+
+<!--Locations code properties-->
+.adresses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#piccoffeeshop{
+  height:500px;
+  width: 1200px;
+}
+.LocTitle{
+margin-bottom: 15px;
+}
+
+.LocationGroup{
+  position:relative;
+  top:-450px;
+}
+.Blocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.block{
+  width: 300px;
+  margin:20px;
+  opacity: 1;
+  background-color: black;
+}
